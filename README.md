@@ -131,7 +131,7 @@ Detailed project notes are available in:
 ```bash
 git init
 git add .
-git commit -m "Add Titanic Random Forest classifier project"
+git commit -m "Add Titanic Catboost classifier project"
 git branch -M main
 git remote add origin <your-github-repository-url>
 git push -u origin main
