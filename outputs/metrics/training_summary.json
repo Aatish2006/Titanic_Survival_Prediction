@@ -1,0 +1,100 @@
+{
+    "selected_model_name": "CatBoostClassifier",
+    "random_state": 42,
+    "train_rows": 712,
+    "validation_rows": 179,
+    "feature_count": 75,
+    "selection_metric": "cross_validation_mean_roc_auc",
+    "best_hyperparameters": {
+        "depth": 6,
+        "iterations": 200,
+        "l2_leaf_reg": 3,
+        "learning_rate": 0.1
+    },
+    "grid_search_best_score": 0.8511474441051906,
+    "holdout_validation_accuracy": 0.8100558659217877,
+    "holdout_validation_roc_auc": 0.8508563899868247,
+    "cross_validation_mean_scores": {
+        "accuracy": 0.838359173937606,
+        "precision": 0.8115734759348436,
+        "recall": 0.7543052003410059,
+        "f1": 0.78124254226444,
+        "roc_auc": 0.8857341600381676
+    },
+    "cross_validation_std_scores": {
+        "accuracy": 0.014185155748384852,
+        "precision": 0.016704132336023667,
+        "recall": 0.04126898719268869,
+        "f1": 0.023639029856086614,
+        "roc_auc": 0.03154136998775836
+    },
+    "model_comparison": [
+        {
+            "model_name": "RandomForestClassifier",
+            "best_hyperparameters": {
+                "max_depth": 8,
+                "max_features": 0.5,
+                "min_samples_leaf": 2,
+                "min_samples_split": 2,
+                "n_estimators": 300
+            },
+            "grid_search_best_score": 0.8469811878262583,
+            "holdout_validation": {
+                "accuracy": 0.8044692737430168,
+                "roc_auc": 0.8584980237154151
+            },
+            "cross_validation_mean_scores": {
+                "accuracy": 0.8361057058565061,
+                "precision": 0.7921971443832725,
+                "recall": 0.7777067348678601,
+                "f1": 0.7847547703715869,
+                "roc_auc": 0.8855900217359309
+            },
+            "cross_validation_std_scores": {
+                "accuracy": 0.01815377005987691,
+                "precision": 0.030552251445733068,
+                "recall": 0.01792309977973456,
+                "f1": 0.02261021474923966,
+                "roc_auc": 0.02093067467050196
+            }
+        },
+        {
+            "model_name": "CatBoostClassifier",
+            "best_hyperparameters": {
+                "depth": 6,
+                "iterations": 200,
+                "l2_leaf_reg": 3,
+                "learning_rate": 0.1
+            },
+            "grid_search_best_score": 0.8511474441051906,
+            "holdout_validation": {
+                "accuracy": 0.8100558659217877,
+                "roc_auc": 0.8508563899868247
+            },
+            "cross_validation_mean_scores": {
+                "accuracy": 0.838359173937606,
+                "precision": 0.8115734759348436,
+                "recall": 0.7543052003410059,
+                "f1": 0.78124254226444,
+                "roc_auc": 0.8857341600381676
+            },
+            "cross_validation_std_scores": {
+                "accuracy": 0.014185155748384852,
+                "precision": 0.016704132336023667,
+                "recall": 0.04126898719268869,
+                "f1": 0.023639029856086614,
+                "roc_auc": 0.03154136998775836
+            }
+        }
+    ],
+    "hyperparameters": {
+        "loss_function": "Logloss",
+        "random_seed": 42,
+        "verbose": 0,
+        "allow_writing_files": false,
+        "depth": 6,
+        "iterations": 200,
+        "l2_leaf_reg": 3,
+        "learning_rate": 0.1
+    }
+}

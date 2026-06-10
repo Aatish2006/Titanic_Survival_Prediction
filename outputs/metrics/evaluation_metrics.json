@@ -1,0 +1,8 @@
+{
+    "accuracy": 0.8100558659217877,
+    "precision": 0.7611940298507462,
+    "recall": 0.7391304347826086,
+    "f1_score": 0.75,
+    "roc_auc": 0.8508563899868247,
+    "note": "These metrics are from the held-out validation split. Cross-validation metrics are saved in outputs/metrics/training_summary.json."
+}

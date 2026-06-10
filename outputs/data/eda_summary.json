@@ -1,0 +1,77 @@
+{
+    "train_shape": [
+        891,
+        12
+    ],
+    "test_shape": [
+        418,
+        11
+    ],
+    "train_columns": [
+        "PassengerId",
+        "Survived",
+        "Pclass",
+        "Name",
+        "Sex",
+        "Age",
+        "SibSp",
+        "Parch",
+        "Ticket",
+        "Fare",
+        "Cabin",
+        "Embarked"
+    ],
+    "test_columns": [
+        "PassengerId",
+        "Pclass",
+        "Name",
+        "Sex",
+        "Age",
+        "SibSp",
+        "Parch",
+        "Ticket",
+        "Fare",
+        "Cabin",
+        "Embarked"
+    ],
+    "train_missing_values": {
+        "PassengerId": 0,
+        "Survived": 0,
+        "Pclass": 0,
+        "Name": 0,
+        "Sex": 0,
+        "Age": 177,
+        "SibSp": 0,
+        "Parch": 0,
+        "Ticket": 0,
+        "Fare": 0,
+        "Cabin": 0,
+        "Embarked": 0
+    },
+    "test_missing_values": {
+        "PassengerId": 0,
+        "Pclass": 0,
+        "Name": 0,
+        "Sex": 0,
+        "Age": 86,
+        "SibSp": 0,
+        "Parch": 0,
+        "Ticket": 0,
+        "Fare": 0,
+        "Cabin": 0,
+        "Embarked": 0
+    },
+    "survival_distribution": {
+        "0": 549,
+        "1": 342
+    },
+    "sex_distribution": {
+        "male": 577,
+        "female": 314
+    },
+    "embarked_distribution": {
+        "S": 646,
+        "C": 168,
+        "Q": 77
+    }
+}
