@@ -4,9 +4,9 @@
 
 | Field | Details |
 | --- | --- |
-| Intern ID | `Add your intern ID here` |
-| Full Name | `Add your full name here` |
-| No. of Weeks | `Add project duration here` |
+| Intern ID | CITS4384 |
+| Full Name | Aatish Ayyapath |
+| No. of Days | 1 |
 | Project Name | `Titanic Survival Prediction` |
 | Project Scope | Build a machine learning pipeline that cleans Titanic passenger data, performs exploratory analysis, engineers meaningful features, trains a Random Forest Classifier, evaluates model performance, and generates prediction outputs for unseen test data. |
 
